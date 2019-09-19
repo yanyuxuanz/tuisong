@@ -15,12 +15,12 @@ go get github.com/yanyuxuanz/tuisong
   cid = "xxxxxxxxxxxxxxx"//客户端ID，可根据实际业务情况获取和存储
   content ="填写对应推送内容。。。。"
   if ts,err := tuisong.New(cid,msg.Content);err == nil{
-			ts.Send()
+	ts.Send()
 	}
   
 ```
 
 #Thanks
-
+该模块内大量使用GF框架中的模块，开发高效，方便快速
 ![gf](https://gf.cdn.johng.cn/logo.png)
 [gogf](https://github.com/gogf/gf "gogf")
